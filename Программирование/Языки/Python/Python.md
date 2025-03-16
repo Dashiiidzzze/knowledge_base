@@ -1,3 +1,6 @@
-Python first.py
+запуск: Python first.py
+или: sudo python3 first.py
+
+[[Точка входа]]
 [[Парсинг сайтов]]
 [[Виртуальное окружение]]
