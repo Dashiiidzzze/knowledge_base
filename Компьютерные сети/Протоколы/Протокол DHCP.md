@@ -20,8 +20,5 @@ DHCP значительно упрощает управление сетями, 
 3. **Request**: устройство выбирает предложенный адрес и запрашивает его использование.
 4. **Ack**: сервер подтверждает назначение IP-адреса.
 
-
 ![DHCP](https://github.com/Dashiiidzzze/knowledge_base/blob/master/Pasted%20image%2020250709142043.png)
-
-
 ![[Pasted image 20250709142043.png]]

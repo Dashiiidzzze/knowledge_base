@@ -70,4 +70,5 @@ Transmission Control Protocol — один из ключевых и наибол
 2. Получатель подтверждает это с помощью сегмента с флагом **ACK** и отправляет свой сегмент с флагом **FIN**.
     
 3. Отправитель подтверждает это сегментом с флагом **ACK**, и соединение закрывается.
+![TCP](https://github.com/Dashiiidzzze/knowledge_base/blob/master/Pasted%20image%2020250709141742.png)
 ![[Pasted image 20250709141742.png]]
