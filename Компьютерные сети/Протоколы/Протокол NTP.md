@@ -21,14 +21,14 @@ PTP - альтернатива NTP.
 
 Смещение времени (разница между временем сервера и клиента) вычисляется по формуле: dt = 0.5 * ((t2−t1) + (t3−t4)), а общее время передачи данных: t = (t4−t1) − (t3−t2). Используя эти данные, клиент выставляет у себя время.
 
-## Настройка NTP сервера
+# **Настройка NTP сервера**
 `configure terminal`
 `ntp master 5` — устройство становится NTP-сервером с уровнем стратума 5 (обычно используется для локальных серверов).
 `show ntp status` - проверка статуса
 `show ntp associations` - проверка ???
 `wr mem`
 
-## Настройка NTP клиента
+# **Настройка NTP клиента на роутере**
 `configure terminal`
 `ntp server <IP-адрес_Router1>`
 `end`
@@ -37,6 +37,7 @@ PTP - альтернатива NTP.
 `show ntp status`  - проверка статуса
 
 ### Пример пакета
+```
 Frame 11: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
 Ethernet II, Src: c4:01:0f:cc:00:00 (c4:01:0f:cc:00:00), Dst: c4:02:0a:c0:00:00 (c4:02:0a:c0:00:00)
 Internet Protocol Version 4, Src: 10.10.10.1, Dst: 10.10.10.2
@@ -67,7 +68,7 @@ Network Time Protocol (NTP Version 3, server)
     Origin Timestamp: Jan  1, 2000 11:01:35.716018454 UTC
     Receive Timestamp: Mar  1, 2002 00:03:01.812114599 UTC
     Transmit Timestamp: Mar  1, 2002 00:03:01.812118940 UTC
-
+```
 #### **1. Общая информация**
 - **Протокол:** NTP Version 3
 - **Тип пакета:** `client` (это запрос от клиента к серверу)
