@@ -13,3 +13,12 @@
 	wr mem
 
 	show run - показать настройки
+
+Создание маршрутизатора Cisco 3745
+https://yandex.ru/video/preview/8913124503907501522
+
+Создание коммутатора из Cisco 3745
+https://yandex.ru/video/preview/1378849855758878380
+
+Создание базового проекта
+https://yandex.ru/video/preview/7416354395673498168
