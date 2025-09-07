@@ -1,13 +1,17 @@
 **TCP/IP (Transmission Control Protocol/Internet Protocol)** — это набор коммуникационных протоколов (стек протоколов), используемых для соединения сетевых устройств в интернете. Т. е сетевая модель для управления передачей данных.
+
+![TCP/IP](https://github.com/Dashiiidzzze/knowledge_base/blob/master/Pasted%20image%2020250326193811.png)
 ![[Pasted image 20250326193811.png]]
 
 сравнение OSI и TCP
+
+![OSI TCP/IP compare](https://github.com/Dashiiidzzze/knowledge_base/blob/master/Pasted%20image%2020250326195411.png)
 ![[Pasted image 20250326195411.png]]
 
 #### Названия данных на каждом уровне
 - на канальном уровне — фрейм;
 - на сетевом уровне — пакет (IP, ICMP);
-- на транспортном уровне — сегмент или датаграмма ([[TCP]], [[UDP]]);
+- на транспортном уровне — сегмент или датаграмма ([[Протокол TCP]], [[Протокол UDP]]);
 - на прикладном уровне — сообщение (DNS, DHCP).
 
 ### Описание уровней
