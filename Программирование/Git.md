@@ -78,3 +78,20 @@ git remote add /имя репозитория/ /ссылка/  подключе
 ``` md
 ![DHCP](https://github.com/Dashiiidzzze/knowledge_base/blob/master/Pasted%20image%2020250709142043.png)
 ```
+
+
+# Слияние изменений
+если изменения из гита небыли загружены, но при этом внесены другие изменения локально
+```
+git pull --rebase название-репозитория название-ветки
+git push название-репозитория название-ветки
+```
+Если возникнут конфликты:
+- Решите их вручную
+- Выполните: `git add .`
+- Продолжите: `git rebase --continue`
+Пример:
+```
+git pull --rebase knowledge_base master
+git push knowledge_base master
+```
